@@ -172,7 +172,6 @@
 
 
 
-
 .products {
   display: flex;
   flex-direction: column;
@@ -180,6 +179,12 @@
   background-image: url("./assets/products-background.png");
   background-position:  101px 690px;
   background-repeat: no-repeat;
+ }
+
+ .products__top {
+  margin-bottom: 710px;
+  padding-left: 227px;
+  padding-right: 227px;
  }
 
  .products__title {
@@ -197,15 +202,9 @@
 
  .products__row {
   display: flex;
-  padding-left:227px;
-  padding-right: 227px;
   justify-content: space-between;
   margin-bottom: 31px;
   z-index: 1;
- }
-
- .products .products__row:last-child {
-  margin-bottom: 710px;
  }
 
  .products__card {
@@ -257,3 +256,77 @@
   padding-left:101px;
 
  }
+
+.products__bottom {
+  display: flex;
+  flex-direction: column;
+  padding-right: 166px;
+  padding-left: 166px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-long {
+  padding-right: 217px;
+  padding-top: 72px;
+  padding-bottom: 73px;
+  padding-left:71px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  margin-bottom: 119px;
+}
+
+.image1 {
+  background-image: url("./assets/truck-02.png");
+  background-position:  620px 0px;
+  background-repeat: no-repeat;
+}
+
+.image2 {
+  background-image: url("./assets/Frame.png");
+  background-position:  770px 0px;
+  background-repeat: no-repeat;
+}
+
+.image3 {
+  background-image: url("./assets/Frame\ \(2\).png");
+  background-position:  800px 0px;
+  background-repeat: no-repeat;
+}
+
+.image4 {
+  background-image: url("./assets/Group.png");
+  background-position:  700px 0px;
+  background-repeat: no-repeat;
+}
+
+.card-long__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-long__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 46px;
+  letter-spacing: 0.2px;
+  margin-bottom: 15px;
+}
+
+.card-long__text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 70px;
+  letter-spacing: 0.2px;
+  width: 819px;
+  margin-bottom: 25px;
+}
+
+.card-long__button {
+
+}
