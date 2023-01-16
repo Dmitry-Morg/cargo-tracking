@@ -277,25 +277,25 @@
   margin-bottom: 119px;
 }
 
-.image1 {
+.card-long__transport-tendors1 {
   background-image: url("./assets/truck-02.png");
   background-position:  620px 0px;
   background-repeat: no-repeat;
 }
 
-.image2 {
+.card-long__transport-tendors2 {
   background-image: url("./assets/Frame.png");
   background-position:  770px 0px;
   background-repeat: no-repeat;
 }
 
-.image3 {
+.card-long__transport-tendors3 {
   background-image: url("./assets/Frame\ \(2\).png");
   background-position:  800px 0px;
   background-repeat: no-repeat;
 }
 
-.image4 {
+.card-long__transport-tendors4 {
   background-image: url("./assets/Group.png");
   background-position:  700px 0px;
   background-repeat: no-repeat;
@@ -328,5 +328,69 @@
 }
 
 .card-long__button {
+  padding-left: 70px;
+  padding-right:70px;
+  padding-top:15px;
+  padding-bottom: 15px;
+}
 
+.for-drivers {
+  display: flex;
+  background-color: #F3FFFD;
+  margin-bottom: 51px;
+  justify-content: center;
+}
+
+.for-drivers__wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 196px;
+  padding-right: 251px;
+  padding-top: 98px;
+  padding-bottom: 60px;
+  background-color: #252B42;
+}
+
+.for-drivers__left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 230px;
+}
+
+.for-drivers__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.for-drivers__container {
+display: flex;
+}
+
+.for-drivers__img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.for-drivers__text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  width: 509px;
+  margin-bottom: 30px;
+}
+
+.for-drivers__button {
+  padding-left:70px;
+  padding-right:70px;
 }
