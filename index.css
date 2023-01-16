@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-image: linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,.5)), url("./assets/фуры\ 1.png");
+  background-image: linear-gradient(to right, rgba(0,0,0,.5), rgba(0,0,0,.5)), url("./assets/background.png");
   background-repeat: no-repeat;
 }
 
@@ -182,13 +182,13 @@
  }
 
 
- .main-block {
+.products {
   display: flex;
   flex-direction: column;
   background-color: #F3FFFD;
  }
 
- .main-block__title {
+ .products__title {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
@@ -199,6 +199,59 @@
   color: #252B42;
   justify-content: center;
   margin-bottom: 53px;
+ }
+
+ .products__row {
+  display: flex;
+  padding-left:227px;
+  padding-right: 227px;
+  justify-content: space-between;
+  margin-bottom: 31px;
+ }
+
+
+
+ .products__card {
+  padding-top: 40px;
+  padding-bottom: 28px;
+  padding-left: 22px;
+  padding-right: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+ }
+
+ .products__card-img {
+  width: 102px;
+  height: 102px;
+  margin-bottom: 30px;
+ }
+
+ .products__card-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252B42;
+  margin-bottom: 10px;
+ }
+ 
+ .products__card-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;  
+  color: #737373;
+  width: 356px;
  }
 
  .main-block__container {
