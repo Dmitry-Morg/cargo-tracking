@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./global.css">
   <link rel="stylesheet" href="./index.css">
@@ -20,35 +23,27 @@
           <button class="button button--variant_secondary navbar__button">Регистрация</button>  
         </div>
         <div class="header__main">
-          <div class="main__container">
-            <h3 class="main__title">Цифровая <br> платформа <br> для грузоперевозок</h3>
-            <p class="main__text">Экосистема сервисов для транспортной логистики <br> Транспортные тендеры | Спот-аукционы | TMS | Трекинг грузов </p>
-            <button class="button main__button">Попробовать</button>
+          <div class="header__main-container">
+            <h3 class="header__main-title">Цифровая  платформа <br> для грузоперевозок</h3>
+            <p class="header__main-text">Экосистема сервисов для транспортной логистики <br> Транспортные тендеры | Спот-аукционы | TMS | Трекинг грузов </p>
+            <button class="button header__main-button">Попробовать</button>
           </div>
         </div>
       </div>
-      <div class="header__bottom">
-        <div class="main__card-container">
-          <div class="card">
-            <div class="card__container">
-            <img class="card__img" src="./assets/handshake (1) 1.png">
-            <p class="card__text">Более 6 000<br> перевозчиков уже работают с нами</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__container">
-            <img class="card__img" src="./assets/truck (8) 1.png">
-            <p class="card__text">Свыше 100 000 <br> рейсов в год</p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card__container">
-            <img class="card__img" src="./assets/insurance (3) 1.png">
-            <p class="card__text">Своя служба безопасности</p>
-            </div>
-          </div>
+      <div class="header__card-container">
+        <div class="card">
+          <img class="card__img" src="./assets/handshake.png">
+          <p class="card__text">Более 6 000 перевозчиков уже работают с нами</p>
         </div>
+        <div class="card">
+          <img class="card__img" src="./assets/truck.png">
+          <p class="card__text">Свыше 100 000 рейсов в год</p>
         </div>
+        <div class="card card--color_green">
+          <img class="card__img" src="./assets/insurance.png">
+          <p class="card__text">Своя служба безопасности</p>
+        </div>
+      </div>
     </div>
 
 
@@ -177,6 +172,41 @@
         </div>
       </div>
       <button class="button for-drivers__button">Присоединяйтесь</button>
+      </div>
+    </div>
+
+
+    <div class="presentation">
+      <div class="presentation__top-wrapper">
+        <div class="presentation__left">
+          <h4 class="presentation__title">Gruzi.ru</h4>
+          <p class="presentation__text">Это цифровая платформа для грузоперевозок. Пользователям доступны<br> продукты и сервисы для автоматизации закупки и исполнения перевозок:<br> транспортные тендеры, спот-аукционы,  TMS и трекинг. Цифровые продукты<br> Gruzi.ru объединены в экосистему, интегрированы с ИТ-системами<br> грузоотправителей, позволяют оптимизировать рутинные процессы и<br> значительно снизить расходы на транспортную логистику.</p>
+        </div>
+        <button class="button presentation__button">Скачать презентацию</button>
+      </div>
+      <div class="presentation__bottom-wrapper">
+        <div class="form-container">
+          <h4>Связаться с нами</h4>
+          <form class="form">
+            <div class="clasd">
+              <label>Имя</label>
+              <input/>
+            </div>
+            <div class="clasd">
+              <label>Адрес электронной почты *</label>
+              <input/>
+            </div>
+            <div class="clasd">
+              <label>Компания *</label>
+              <input/>
+            </div>
+            <div class="clasd">
+              <label>Телефон *</label>
+              <input/>
+            </div>
+            <button>Отправить</button>
+          </form>
+        </div>
       </div>
     </div>
       <!-- background-image у products спозиционировать -->
