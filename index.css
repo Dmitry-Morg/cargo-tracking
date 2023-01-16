@@ -168,13 +168,12 @@
 
 
 
+
 .products {
-  display: flex;
-  flex-direction: column;
-  background-color: #F3FFFD;
   background-image: url("./assets/products-background.png");
   background-position:  101px 690px;
   background-repeat: no-repeat;
+  margin-bottom: 151px;
  }
 
  .products__top {
@@ -192,7 +191,6 @@
   text-align: center;
   letter-spacing: 0.2px;
   color: #252B42;
-  justify-content: center;
   margin-bottom: 53px;
  }
 
@@ -200,7 +198,10 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 31px;
-  z-index: 1;
+ }
+ 
+ .products__row:last-child {
+  margin-bottom: 0px;
  }
 
  .products__card {
@@ -214,6 +215,8 @@
   background-color: #FFFFFF;
   border-radius: 30px;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  width: 430px;
+  min-height: 350px;
  }
 
  .products__card-img {
@@ -233,6 +236,10 @@
   color: #252B42;
   margin-bottom: 10px;
  }
+
+ .products__card-text-container {
+  text-align: center;
+ }
  
  .products__card-text {
   font-family: 'Montserrat';
@@ -243,8 +250,13 @@
   text-align: center;
   letter-spacing: 0.2px;  
   color: #737373;
-  width: 356px;
+  white-space: pre-line;
  }
+
+ .products__card-text:first-child {
+  white-space: unset;
+ }
+
  .products__images {
   position: absolute;
   top:703px;
@@ -254,12 +266,18 @@
  }
 
 .products__bottom {
-  display: flex;
-  flex-direction: column;
   padding-right: 166px;
   padding-left: 166px;
   justify-content: center;
   align-items: center;
+}
+
+.products__card-long  {
+  margin-bottom: 119px;
+}
+
+.products__card-long:last-child {
+  margin-bottom: 0px;
 }
 
 .card-long {
@@ -270,29 +288,31 @@
   background-color: #FFFFFF;
   border-radius: 30px;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-  margin-bottom: 119px;
+
 }
 
-.card-long__transport-tendors1 {
-  background-image: url("./assets/truck-02.png");
+
+
+.card-long--transport-tendors {
+  background-image: url("./assets/transport-tendors.png");
   background-position:  620px 0px;
   background-repeat: no-repeat;
 }
 
-.card-long__transport-tendors2 {
-  background-image: url("./assets/Frame.png");
+.card-long--transport-auctions {
+  background-image: url("./assets/transport-auctions.png");
   background-position:  770px 0px;
   background-repeat: no-repeat;
 }
 
-.card-long__transport-tendors3 {
-  background-image: url("./assets/Frame\ \(2\).png");
-  background-position:  800px 0px;
+.card-long--tms {
+  background-image: url("./assets/tms.png");
+  background-position:  639px -10px;
   background-repeat: no-repeat;
 }
 
-.card-long__transport-tendors4 {
-  background-image: url("./assets/Group.png");
+.card-long__tracking-cargos {
+  background-image: url("./assets/tracking-cargos.png");
   background-position:  700px 0px;
   background-repeat: no-repeat;
 }
@@ -300,6 +320,7 @@
 .card-long__wrapper {
   display: flex;
   flex-direction: column;
+  margin-bottom: 49px;
 }
 
 .card-long__title {
@@ -309,7 +330,7 @@
   font-size: 31px;
   line-height: 46px;
   letter-spacing: 0.2px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .card-long__text {
@@ -317,10 +338,14 @@
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 70px;
+  line-height: 24px;
   letter-spacing: 0.2px;
   width: 819px;
-  margin-bottom: 25px;
+  margin-bottom: 46px;
+}
+
+.card-long__text:last-child {
+  margin-bottom: 0px;
 }
 
 .card-long__button {

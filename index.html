@@ -51,103 +51,107 @@
     <div class="products">
       <div class="products__top">
       <h4 class="products__title">Продукты платформы</h4>
-      <div class="products__row">
-        <div class="products__card">
-          <img class="products__card-img" src="./assets/image 1.png">
-          <h5 class="products__card-title">Транспортные тендеры</h5>
-          <span class="products__card-text">
-            •Прозрачность процессов закупки<br>
-            •	Автоматизация распределения объемов<br>
-            •	Консолидированная отчетность<br>
-            •	Хранение результатов и истории торгов<br>
-          </span>
-        </div>
-        <div class="products__card">
-            <img class="products__card-img" src="./assets/image 2.png">
-            <h5 class="products__card-title">Спот-аукционы</h5>
-            <span class="products__card-text">
-              •	Оперативное закрытие срочных перевозок<br>
-              •	Три вида аукционов: на понижение, первого согласия, без стартовой цены
-            </span>
+      <div class="products__rows">
+        <div class="products__row">
+          <div class="products__card">
+            <img class="products__card-img" src="./assets/image 1.png">
+            <h5 class="products__card-title">Транспортные тендеры</h5>
+            <div class="products__card-text-container">
+              <span class="products__card-text">• Прозрачность процессов закупки</span>
+              <span class="products__card-text">
+                •	Автоматизация распределения объемов
+                •	Консолидированная отчетность
+                •	Хранение результатов и истории торгов
+              </span>
+            </div>
           </div>
-      </div>
-      
-      <div class="products__row">
-        <div class="products__card">
-          <img class="products__card-img" src="./assets/image 3.png">
-          <h5 class="products__card-title">TMS / Система управления<br> перевозками</h5>
-          <span class="products__card-text">
-            •	Фиксация и учет договорных условий<br>
-            •	Автоматизация логистических процессов<br>
-            •	Возможность настройки под конкретные задачи
-          </span>
+          <div class="products__card">
+              <img class="products__card-img" src="./assets/image 2.png">
+              <h5 class="products__card-title">Спот-аукционы</h5>
+              <div class="products__card-text-container">
+                <span class="products__card-text">•	Оперативное закрытие срочных перевозок</span>
+                <span class="products__card-text">
+                  •	Три вида аукционов: на понижение, первого согласия, без стартовой цены
+                </span>
+              </div>
+            </div>
         </div>
+        
+        <div class="products__row">
+          <div class="products__card">
+            <img class="products__card-img" src="./assets/image 3.png">
+            <h5 class="products__card-title">TMS / Система управления<br> перевозками</h5>
+            <div class="products__card-text-container">
+              <span class="products__card-text">•	Фиксация и учет договорных условий</span>
+              <span class="products__card-text">
+                •	Автоматизация логистических процессов
+                •	Возможность настройки под конкретные задачи
+              </span>
+            </div>
+          </div>
 
-        <div class="products__card">
-          <img class="products__card-img" src="./assets/image 4.png">
-          <h5 class="products__card-title">Трекинг грузов</h5>
-          <span class="products__card-text">
-            Все виды отслеживания:<br>
-            •	Бортовые блоки<br>
-            •	GSM-связь<br>
-            •	Мобильное приложение
-          </span>
+          <div class="products__card">
+            <img class="products__card-img" src="./assets/image 4.png">
+            <h5 class="products__card-title">Трекинг грузов</h5>
+            <div class="products__card-text-container">
+              <span class="products__card-text">Все виды отслеживания:</span>
+              <span class="products__card-text">
+                •	Бортовые блоки
+                •	GSM-связь
+                •	Мобильное приложение
+              </span>
+            </div>
+          </div>
         </div>
       </div>
       </div>
 
+      <!-- TODO: background size   -->
       <div class="products__bottom">
-        <div class="card-long card-long__transport-tendors1">
+        <div class="card-long products__card-long card-long--transport-tendors">
           <div class="card-long__wrapper">
-          <h4 class="card-long__title">Транспортные тендеры</h4>
-          <span class="card-long__text">
-          Обеспечим контроль и исполнение бюджета в ТМС<br>
-          Сильнейший аналитический модуль<br>
-          Единый сквозной процесс «Закупки-исполнение»<br>
-          Независимость принятых решений<br>
-          Работа только с проверенными перевозчиками</span>
+            <h4 class="card-long__title">Транспортные тендеры</h4>
+            <span class="card-long__text">Обеспечим контроль и исполнение бюджета в ТМС</span>
+            <span class="card-long__text">Сильнейший аналитический модуль</span>
+            <span class="card-long__text">Единый сквозной процесс «Закупки-исполнение»</span>
+            <span class="card-long__text">Независимость принятых решений</span>
+            <span class="card-long__text">Работа только с проверенными перевозчиками</span>
           </div>
           <button class="button card-long__button">Попробовать</button>
         </div>
 
-        <div class="card-long card-long__transport-tendors2">
+        <div class="card-long products__card-long  card-long--transport-auctions">
           <div class="card-long__wrapper">
-          <h4 class="card-long__title"> Спот-аукционы</h4>
-          <span class="card-long__text">
-            Заменяем почту и мессенджеры<br>
-            Все торги организации в одном окне<br>
-            Закройте горящий рейс в пару кликов<br>
-            Четкий контроль круга участников<br>
-            Разные типы аукционов под любую ситуацию<br>
-            </span>
+            <h4 class="card-long__title"> Спот-аукционы</h4>
+            <span class="card-long__text">Заменяем почту и мессенджеры</span>
+            <span class="card-long__text">Все торги организации в одном окне</span>
+            <span class="card-long__text">Закройте горящий рейс в пару кликов</span>
+            <span class="card-long__text">Четкий контроль круга участников</span>
+            <span class="card-long__text">Разные типы аукционов под любую ситуацию</span>
           </div>
           <button class="button card-long__button">Попробовать</button>
         </div>
 
-        <div class="card-long card-long__transport-tendors3">
+        <div class="card-long products__card-long  card-long--tms">
           <div class="card-long__wrapper">
-          <h4 class="card-long__title"> ТMS / Система управления перевозками</h4>
-          <span class="card-long__text">
-            Контроль всех этапов от закупки до оплаты<br>
-            Бесшовная интеграция продуктов в экосистеме ТМС<br>
-            Отслеживание статуса заказа онлайн<br>
-            Контроль документооборота<br>
-            Оперативная обработка отклонений
-            </span>
+            <h4 class="card-long__title"> ТMS / Система управления перевозками</h4>
+            <span class="card-long__text">Контроль всех этапов от закупки до оплаты</span>
+            <span class="card-long__text">Бесшовная интеграция продуктов в экосистеме ТМС</span>
+            <span class="card-long__text">Отслеживание статуса заказа онлайн</span>
+            <span class="card-long__text">Контроль документооборота</span>
+            <span class="card-long__text">Оперативная обработка отклонений</span>
           </div>
           <button class="button card-long__button">Попробовать</button>
         </div>
 
-        <div class="card-long card-long__transport-tendors4">
+        <div class="card-long products__card-long  card-long__tracking-cargos">
           <div class="card-long__wrapper">
-          <h4 class="card-long__title">Трекинг грузов</h4>
-          <span class="card-long__text">
-            Интеграция с ERP-системой клиентов<br>
-            Автоматизация распределения заказов<br>
-            Отслеживание изменения статусов<br>
-            Возможность гибкой настройки <br>
-            Аудит логистических процессов<br>
-            </span>
+            <h4 class="card-long__title">Трекинг грузов</h4>
+            <span class="card-long__text">Интеграция с ERP-системой клиентов</span>
+            <span class="card-long__text">Автоматизация распределения заказов</span>
+            <span class="card-long__text">Отслеживание изменения статусов</span>
+            <span class="card-long__text">Возможность гибкой настройки </span>
+            <span class="card-long__text">Аудит логистических процессов</span>
           </div>
           <button class="button card-long__button">Попробовать</button>
         </div>
